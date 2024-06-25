@@ -1,0 +1,155 @@
+
+/* 
+ #B1BDCD
+#5B7290
+#E7EBF0
+#003366
+
+*/
+
+body{
+    background-color: #B1BDCD;
+    padding: 0;
+    margin: 0;
+}
+.outerBox{
+    width: 40rem;
+    height: 40rem;
+    /* border: 1px solid black; */
+    margin:  4% auto;
+
+}
+
+.innerTop{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.innerTop p{
+    font-size: 1.2rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+.innerDown {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid white; */
+}
+.innerDown .boxMain{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    flex-direction: column;
+    
+}
+
+.innerDown .boxMain .boxMainIn{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.innerDown .boxMain .boxMainIn .boxMainInner{
+  width: 40%;
+  height: 95%;
+  cursor: pointer;
+  /* border: 4px solid black; */
+  /* margin-right: 3rem; */
+}
+.innerDown .boxMain .boxMainIn .one{
+    border-radius: 15rem 2rem 0rem 2rem;
+    margin-right: 1rem;
+    background-color:rgb(151, 4, 4) ;
+}
+
+.innerDown .boxMain .boxMainIn .two{
+    border-radius: 2rem 15rem 2rem 0rem;
+    background-color: #028102 ;
+}
+
+.innerDown .boxMain .boxMainIn .four{
+    border-radius: 0rem 2rem 15rem 2rem;
+    background-color: #7c7603;
+}
+.innerDown .boxMain .boxMainIn .three{
+    border-radius: 2rem 0rem 2rem 17rem;
+    margin-right: 1rem;
+    background-color:  #030366;
+}
+
+.curcle{
+    width: 23rem;
+    height: 23rem;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    /* margin:-20% auto; ; */
+    transform: translate(36rem,-31rem);
+    background-color: #B1BDCD;
+    /* background-color: #949eab; */
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.curcle button{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: cursive;
+    background-color: #5B7290;
+    cursor: pointer;
+    color: #003366;
+}
+/* .curcle button:hover{
+    background-color: #728caf;
+    } */
+
+
+/* .innerDown .boxMain .boxMainIn .oneClicked{
+    background-color:#FF0000 ;
+}     */
+
+.innerDown .boxMain .boxMainIn .red{
+    background-color: #FF0000;
+ }
+
+ .innerDown .boxMain .boxMainIn .green{
+    background-color: #04f104;
+ }
+ .innerDown .boxMain .boxMainIn .yellow{
+    background-color:#ede204; ;
+ }
+
+ .innerDown .boxMain .boxMainIn .blue{
+    background-color: #0808f6 ;
+ }
+
+ .curcle .started{
+    background-color: #B1BDCD;
+ }
+
+ .gameOver{
+    color: red;
+ }
+
+ .noOfColore{
+   display: block;
+    width: 3rem ;
+    height: 0.5rem;
+    border-radius: 0.2rem;
+    border: 0.5px solid  #003366;
+ }
+
+.heighScoreP{
+    position: absolute;
+    top: 4rem;
+}
